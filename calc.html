@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link href="StyleSheet1.css"rel="stylesheet" />
+    <script src="Script1.js" defer></script>
+</head>
+<body>
+    <div class="calculator-grid">
+        <form name="cal">
+            <input class="dis" type="text"  id="display"/>
+
+            <br><br>
+            <input type="button" value="1" onclick="store('1')"/>
+            <input type="button" value="2" onclick="store('2')"/>
+            <input type="button" value="3" onclick="store('3')"/>
+            <input type="button" value="+" onclick="plus()"/>
+            <br><br>
+            <input type="button" value="4" onclick="store('4')"/>
+            <input type="button" value="5" onclick="store('5')"/>
+            <input type="button" value="6" onclick="store('6')"/>
+            <input type="button" value="-" onclick="subtraction()"/>
+            <br><br>
+            <input type="button" value="7" onclick="store('7')"/>
+            <input type="button" value="8" onclick="store('8')"/>
+            <input type="button" value="9" onclick="store('9')"/>
+            <input type="button" value="*" onclick="multiplication()"/>
+            <br><br>
+            <input type="button" value="/" onclick="divide('/')"/>
+            <input type="button" value="0" onclick="store('0')"/>
+            <input type="button" value="." onclick="store('.')"/>
+            <input type="button" value="=" onclick="equal()"/>
+            <br><br>
+            <input style="width:420px"  type="button" value="Clear All" onclick="Clear()"/>
+        </form>
+        </div>
+</body>
+</html>

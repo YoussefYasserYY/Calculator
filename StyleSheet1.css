@@ -1,0 +1,48 @@
+﻿*, *::before, *::after {
+    box-sizing:border-box;
+    font-family:Gotham 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:normal; 
+
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right,#6699ff,#003399);
+}
+
+
+.calculator-grid {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+}
+
+
+
+input[type="button"]{
+    position:static;
+    color: white;
+    cursor: pointer;
+    background-color: #000033;
+    font-size: 35px;
+    width: 23%;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    padding: 15px 32px;
+    display: inline-block;
+}
+
+.dis {
+    width: 400px;
+    text-align:right;
+    font-size:50px;
+    margin: 0;
+    height: 120px;
+    text-size-adjust: 200%;
+    box-sizing: border-box;
+}
